@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../img/public_weather.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+#inner {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  text-align: left;
+}
+.innerBox {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 45px 45px;
+  margin-right: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.chosenBox {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+button {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #60a3bc;
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.buttonInner {
+  margin-top: 30px;
+}
+.buttonInner button {
+  margin-right: 10px;
+  width: 200px;
+}
